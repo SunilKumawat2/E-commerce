@@ -1,0 +1,12 @@
+// <------------ ProductList ----------------->
+export const SET_PRODUCT_LIST = "SET_PRODUCT_LIST";
+export const SET_PRODUCT_DETAILS_LIST = "SET_PRODUCT_DETAILS_LIST";
+export const SET_PRODUCT_ALL_DETAILS_LIST = "SET_PRODUCT_ALL_DETAILS_LIST";
+export const FETCH_PRODUCT_REQUEST = "FETCH_PRODUCT_REQUEST";
+export const FETCH_PRODUCT_LIST_SUCCESS = "FETCH_PRODUCT_LIST_SUCCESS";
+export const FETCH_PRODUCT_LIST_FAILURE = "FETCH_PRODUCT_LIST_FAILURE";
+
+
+// <------------- Authentication--------------->
+export const GET_LOGIN_USER_DETAILS = "GET_LOGIN_USER_DETAILS";
+

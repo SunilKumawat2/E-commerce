@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.DropdownButton2.dropdown button {
+    background: white;
+    color: black;
+    border-radius: 15px;
+    border: none;
+}
+
+.LoginPage {
+    width: 65%;
+    margin: auto;
+    margin-top: 150px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.LoginForm {
+    width: 50%;
+    padding: 0;
+    border-right: 1px solid rgb(228, 226, 226);
+}
+
+.Imageside {
+    width: 50%;
+}
+
+.LoginForm input {
+    width: 95%;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 0.3px solid rgb(207, 203, 203);
+}
+
+.Loginbutton {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.Loginbutton button{
+    width: 80%;
+    background-color: orangered;
+    color: white;
+    font-size: 18px;
+}
+.Loginbutton button:hover{
+    background-color: rgb(216, 66, 11);
+    color: white;
+}
+.LoginHeading{
+    text-align: center;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+}
+.ModalHeader{
+    background-color: orangered;
+    text-align: center;
+    color: white; 
+}
+.ModalButton{
+    background-color: orangered;
+    text-align: center;
+    color: white; 
+    border: none;
+}
+.ModalButton:hover{
+    background-color: rgb(216, 65, 10);
+    text-align: center;
+    color: white; 
+    border: none;
+
+}
+.ModalBody input{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(202, 196, 196);
+    padding: 10px;
+    outline: none;
+    color: grey;
+}
+.ListItem{
+    border: 1px solid rgb(240, 104, 89) ;
+    background-color: orange;
+}
+.ProductDetailsModal{
+    margin-top: 50px;
+}
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 70%;
+        margin: 1.75rem auto;
+    }
+}
+.ModalBody{
+    overflow-y: scroll; 
+    height: 400px;
+}
+.aboutPageEditorContainer{
+    height: 200px !important;
+    margin-bottom: 20px;
+    
+}
